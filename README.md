@@ -27,21 +27,9 @@
      pip install pandas numpy mlxtend matplotlib scikit-learn
      ```
    * **Execution:**
-     You can just execute the notebook and upload the dataset or:
+    1. Download the Notebook ``
 
-     ```bash
-     # Clone repository and install requirements
-     pip install -r requirements.txt
 
-     # Run the analysis notebook
-     jupyter notebook AprioriAlgorithm.ipynb
-
-     # Or execute as a script with custom thresholds
-     python AprioriAlgorithm.ipynb \
-       --data_path market_basket.csv \
-       --min_support 0.02 \
-       --min_confidence 0.60
-     ```
      
 ## 4. Dataset Availability
 
