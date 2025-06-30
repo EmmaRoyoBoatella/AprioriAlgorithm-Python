@@ -27,38 +27,23 @@
      pip install pandas numpy mlxtend matplotlib scikit-learn
      ```
    * **Execution:**
+     You can just execute the notebook and upload the dataset or:
 
      ```bash
      # Clone repository and install requirements
      pip install -r requirements.txt
 
      # Run the analysis notebook
-     jupyter notebook apriori_analysis.ipynb
+     jupyter notebook AprioriAlgorithm.ipynb
 
      # Or execute as a script with custom thresholds
-     python apriori_analysis.py \
+     python AprioriAlgorithm.ipynb \
        --data_path market_basket.csv \
        --min_support 0.02 \
        --min_confidence 0.60
      ```
-
-## 4. Extensions & Temporal Analysis
-
-   * **Seasonal Patterns:** If your data include timestamps, preprocess to `transactions_timestamped.csv` and run temporal Apriori:
-
-     ```bash
-     python apriori_temporal.py --data_path transactions_timestamped.csv
-     ```
-   * **New Basket Scoring:** To apply the learned rules to new transactions in `new_transactions.csv`:
-
-     ```bash
-     python apply_rules.py \
-       --model_path models/apriori_rules.pkl \
-       --input new_transactions.csv
-     ```
-
-## 5. Dataset Availability
+     
+## 4. Dataset Availability
 
    * **Raw Transactions:** `market_basket.csv` (7 500 baskets, up to 20 items each).
-   * **One-Hot Encoded Matrix:** `data/transactions_onehot.npy` for direct algorithm input.
    * **Original Source & Licensing:** See `README.md` for provenance and usage terms.
