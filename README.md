@@ -1,4 +1,4 @@
-# Apriori-Based Association Rule Mining on Retail Transactions**
+# Apriori-Based Association Rule Mining on Retail Transactions
 
 ## 1. Introduction
    This project applies the Apriori algorithm to a real-world market-basket dataset (`market_basket.csv`) containing 7 500 customer transactions, each with up to 20 items drawn from 120 unique products. By mining frequent itemsets and extracting high-confidence association rules, the analysis uncovers product affinities that can inform cross-selling and promotional strategies.
