@@ -27,10 +27,13 @@
      pip install pandas numpy mlxtend matplotlib scikit-learn
      ```
    * **Execution:**
-    1. Download the Notebook ``
 
+  1. Clone the repository and install dependencies via `pip install -r requirements.txt` or just download the Notebook `SelfOrganizingMap.ipynb`.
+  2. Upload the datasets `market_basket.csv`.
+  3. Launch `SelfOrganizingMap.ipynb` and run all cells sequentially.
 
-     
+Feel free to change the hyperparameters in order to find the best SOM!
+
 ## 4. Dataset Availability
 
    * **Raw Transactions:** `market_basket.csv` (7 500 baskets, up to 20 items each).
