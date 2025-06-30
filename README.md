@@ -28,9 +28,9 @@
      ```
    * **Execution:**
 
-  1. Clone the repository and install dependencies via `pip install -r requirements.txt` or just download the Notebook `SelfOrganizingMap.ipynb`.
+  1. Clone the repository and install dependencies via `pip install -r requirements.txt` or just download the Notebook `AprioriAlgorithm.ipynb`.
   2. Upload the datasets `market_basket.csv`.
-  3. Launch `SelfOrganizingMap.ipynb` and run all cells sequentially.
+  3. Launch `AprioriAlgorithm.ipynb` and run all cells sequentially.
 
 Feel free to change the hyperparameters in order to find the best SOM!
 
